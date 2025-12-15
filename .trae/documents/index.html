@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Darren's Adventures Home Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#13ec6d",
+              "background-light": "#f6f8f7",
+              "background-dark": "#102218",
+            },
+            fontFamily: {
+              "display": ["Plus Jakarta Sans", "Noto Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111814] dark:text-white/90">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col w-full max-w-[1280px]">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-10 py-3 border-b border-solid border-black/10 dark:border-white/10">
+<div class="flex items-center gap-4">
+<div class="size-6 text-[#111814] dark:text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_535)">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clippath id="clip0_6_535">
+<rect fill="white" height="48" width="48"></rect>
+</clippath>
+</defs>
+</svg>
+</div>
+<h2 class="text-[#111814] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Darren's Adventures</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<nav class="flex items-center gap-9">
+<a class="text-[#111814] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-[#111814] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Events</a>
+<a class="text-[#111814] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Podcast</a>
+<a class="text-[#111814] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">About</a>
+<a class="text-[#111814] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-[#111814] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-opacity-80 transition-colors">
+<span class="truncate">Donate Now</span>
+</button>
+</div>
+<button class="md:hidden flex items-center justify-center rounded-lg h-10 w-10 text-[#111814] dark:text-white/90">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex-grow px-4 sm:px-10 py-10">
+<!-- HeroSection -->
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[60vh] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 rounded-xl items-start justify-end p-6 @[480px]:p-10" data-alt="A group of hikers silhouetted against a vibrant mountain sunset" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVDQcrmlr2COCB3QcECQHd5j9NWZPxdmmUliMazOgdodr5diLtBVQl9vtpmH3d7JC2gCzrI49NvvQzkEP0w4YoHT_9J5g-2AofB5ZB6VBfOiR0p5-u6ktSTGN4Zf6deqPRhtYkIIwbwG7es1zNesaA46t-tyim7Bgj4SIOkNuNj91trZY6a1g8IGpXUU4E_5bet488Loz4rViTWChffvlzq-WUfmZnuvmad-TQ2VdnaR-zc67Pj-8XR3dcgTVEsIGkr7O3lgRtPxa1");'>
+<div class="flex flex-col gap-2 text-left max-w-2xl">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-6xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">Adventure Awaits</h1>
+<h2 class="text-white/90 text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal @[480px]:leading-normal">Connecting People Through Outdoor Events and Inspiring Stories</h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-[#111814] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-opacity-80 transition-colors">
+<span class="truncate">Explore Events</span>
+</button>
+</div>
+</div>
+</div>
+<!-- FeatureSection -->
+<div class="flex flex-col gap-10 px-4 py-16 @container">
+<div class="flex flex-col gap-4 items-center text-center">
+<h1 class="text-[#111814] dark:text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">Welcome to Darren's Adventures</h1>
+<p class="text-[#111814]/80 dark:text-white/70 text-base font-normal leading-normal max-w-[720px]">We are a community-focused organization dedicated to bringing people together through a shared love for the great outdoors. From group hikes to inspiring podcasts, our mission is to foster connection, encourage exploration, and create lasting memories.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" data-alt="People gathered around a campfire at dusk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDeLid_Wni_hLSk7BV7lYvMe8Sw7AjrjRcfhI03k78fliDZtaujDc3rLRb3auaZ3axX3A5ocTd_Fe-9sIeq4kWNtysQWieCas8OIRNDMcpxxKWrcwOBiGG10eAwrULuyYixt2roE47m27jNY3V6TEpQNVMbRqihPjsGEYQLkOF9LsRjYOWtlMRO0OueSFBtLa4_7BCEwmwJJlLsP7-uHL-73Rj6ZN4FWs4eR88bTvHuHxWJ1wdzEtrWq83jrW61CCRNhe6w8CDUlqrz");'></div>
+<div>
+<p class="text-[#111814] dark:text-white text-lg font-medium leading-normal">Community Events</p>
+<p class="text-[#618972] dark:text-white/60 text-sm font-normal leading-normal">Join us for a variety of outdoor activities designed for all skill levels.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" data-alt="A person speaking into a professional microphone in a studio" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBhbPMDBdBK7oGZCy3bvm8C96RYdfEr2Of5KJrrbFZXUsF99Tf9USWM4obXU7qX41G2MyRd1mE1KB65QUTQTd9OSY8IWUyQCAVcKJMq09TzDqBW7Ytfya5OmJ3hm1C5naHBCUsDDVJn2_yq0UV6leI0sbbtA6WTpRabuJ1GwkQJmBE6PRPaqGEj4Ae2pyR9rMOSlG6nDtnEPxoDuG0bbBL_n4IbMiUCBxe2esYy52joaV73w83u8eqhsM2nWva331gAlra-SzwSKyes");'></div>
+<div>
+<p class="text-[#111814] dark:text-white text-lg font-medium leading-normal">Inspiring Podcasts</p>
+<p class="text-[#618972] dark:text-white/60 text-sm font-normal leading-normal">Tune in to hear stories of adventure, perseverance, and community.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- SectionHeader -->
+<h2 class="text-[#111814] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Join Our Next Adventure</h2>
+<!-- ImageGrid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="A mountain peak bathed in the golden light of sunrise" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA6uezXI49-3XFyVjF_S6ENb3QNUuOk0LEVoG5jEeRkIrBot7WUGKUgiJIOSj85Z2TZA23TcuKZVyr_LtHq8XbV0AIW-ww1UEWd-H8rD-1-LoZ28x_zU8CO3sY6OTdMWidVzxeSYGgM-U4p2qDZVZ_hEi_EutwHzCvSiLzR_IrzERDEOG2ykpDNq60-8g-DBvW_-ENUscH5QjzkRt7wnwLdQ7L2iefatzZb6_eRfZk9JvPLI7rbc0cK_3BBOTAVBbBet6nlCjd3HjkR");'></div>
+<div>
+<p class="text-[#111814] dark:text-white text-base font-medium leading-normal">Sunrise Mountain Hike</p>
+<p class="text-[#618972] dark:text-white/60 text-sm font-normal leading-normal">August 15th, 2024</p>
+<p class="text-[#111814]/80 dark:text-white/70 text-sm font-normal leading-normal">A breathtaking early morning hike to watch the sunrise from the summit.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="Two people kayaking on a calm sea along a rocky coastline" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC0Obsr5TYK-lcdsmGzTnfzBmIKeBUcfhzWRp-cqC8rcvEKX6hI_HOsxDeHisMBR5829RGQig-x2FqFmOxAEaBiL-B9ZM2KY4YrgNDxcVlgr7DsfiIaaO8373xuEevFpM_3r92k6lEin7CdSWPZSsaLMlHTrmu7DgkSWGKPyJjbyPRXFz_fVDxLl0NMf5HzjJapGNK-uWYXvHmQ4nsz1dMB1V4BD5vwZStRQzuNokkitxl21uzCsp1qOcXSE4TI9KZbwTjW8MdMb4CS");'></div>
+<div>
+<p class="text-[#111814] dark:text-white text-base font-medium leading-normal">Coastal Kayaking Trip</p>
+<p class="text-[#618972] dark:text-white/60 text-sm font-normal leading-normal">September 5th, 2024</p>
+<p class="text-[#111814]/80 dark:text-white/70 text-sm font-normal leading-normal">Explore the stunning coastline and hidden coves on this guided kayak tour.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-xl" data-alt="A group of volunteers with trash bags cleaning a forest trail" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCVC1Pg4nCcxDxVKojNBe0UNcz9bQ1Rb0XlmjwwFhC12gXJcs_CMqn-AiiYjQYB1QnT_XlJl1ZcqaTyKFSNzgBtqwcXBsApOd02Z2sHvCEDtWZA_XjiaV6L2TtaNJg7gYSoLcXvFBXoPJVjidG1QWclC5IU0FgJSUQXWdWJukvHFY_IqV78DyLwW73u3NRX-oB4zvBorsnp_hdLCLS3z--kiRV81BDtKEVqZXQu7pcTChdFf-ppHccc_are2g4pwwaj9xmEZrL9n2QJ");'></div>
+<div>
+<p class="text-[#111814] dark:text-white text-base font-medium leading-normal">Forest Trail Cleanup</p>
+<p class="text-[#618972] dark:text-white/60 text-sm font-normal leading-normal">September 21st, 2024</p>
+<p class="text-[#111814]/80 dark:text-white/70 text-sm font-normal leading-normal">Give back to the community and help preserve our beautiful local trails.</p>
+</div>
+</div>
+</div>
+<!-- Podcast Section -->
+<div class="flex flex-col md:flex-row items-center gap-8 px-4 py-16">
+<div class="w-full md:w-1/2 flex-shrink-0">
+<div class="relative w-full" style="padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="absolute top-0 left-0 w-full h-full rounded-xl" frameborder="0" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"></iframe>
+</div>
+</div>
+<div class="flex flex-col gap-4 text-center md:text-left">
+<h2 class="text-[#111814] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em]">Listen to Our Latest Podcast</h2>
+<h3 class="text-[#111814] dark:text-white text-xl font-semibold">Episode 42: Finding Adventure in Your Own Backyard</h3>
+<p class="text-[#111814]/80 dark:text-white/70 text-base font-normal leading-normal">In this episode, Darren sits down with local explorer Maya Chen to discuss how to find hidden gems and exciting adventures right in your local area. Get inspired to explore the world around you!</p>
+<div class="flex justify-center md:justify-start">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-[#111814] text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-80 transition-colors" href="#">
+<span class="truncate">View All Episodes</span>
+</a>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-gray-100 dark:bg-background-dark border-t border-black/10 dark:border-white/10 text-sm px-10 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-2 mb-2">
+<div class="size-5 text-[#111814] dark:text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_6_535)"><path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill-rule="evenodd"></path></g></svg>
+</div>
+<h2 class="text-[#111814] dark:text-white text-base font-bold">Darren's Adventures</h2>
+</div>
+<p class="text-gray-600 dark:text-white/60">Fostering connection, encouraging exploration, and creating lasting memories through outdoor adventures.</p>
+</div>
+<div>
+<h3 class="font-bold text-[#111814] dark:text-white mb-3">Quick Links</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">Home</a></li>
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">Events</a></li>
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">Podcast</a></li>
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">Donate</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-[#111814] dark:text-white mb-3">Connect</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">Contact Us</a></li>
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">Instagram</a></li>
+<li><a class="text-gray-600 dark:text-white/60 hover:text-primary dark:hover:text-primary" href="#">YouTube</a></li>
+</ul>
+</div>
+</div>
+<div class="mt-10 pt-8 border-t border-black/10 dark:border-white/10 text-center text-gray-500 dark:text-white/50 text-xs">
+<p>© 2024 Darren's Adventures. All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>
